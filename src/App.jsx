@@ -4,10 +4,10 @@ import './App.css'
 function App() {
   return (
     // p-5 add kiya taaki mobile par contents side se na chipke
-    <div className="gap-10 bg-linear-to-bl from-violet-500 to-fuchsia-500 min-h-screen flex-col flex justify-center items-center p-5">
+    <div className="gap-10 bg-slate-900 min-h-screen flex-col flex justify-center items-center p-5">
       
       {/* Mobile ke liye text-4xl aur Desktop ke liye text-6xl */}
-      <h1 className='text-4xl md:text-6xl font-bold font-[Poppins] italic text-center'>
+      <h1 className='text-4xl md:text-6xl font-bold font-[Poppins] italic text-slate-500 text-center'>
         Hi, welcome to my page!
       </h1>
 
@@ -19,9 +19,10 @@ function App() {
           { title: "Project 2", link: "https://vd0511.github.io/CALCULATER/" },
           { title: "Project 3", link: "https://vd0511.github.io/SIGNUP-LOGIN-PAGE/" },
           { title: "Project 4", link: "https://vd0511.github.io/Netflix-clone/" },
+          { title: "Project 5", link: "https://cerulean-gelato-7d734a.netlify.app/" },
         ].map((project, index) => (
-          <div key={index} className='bg-linear-to-r/hsl from-indigo-500 to-teal-400 h-64 w-64 flex justify-center items-center flex-col rounded-2xl shadow-xl transform duration-300 hover:-translate-y-3 p-4'>
-            <img src={clickImage} alt="click" className='box-border size-32 object-contain' />
+          <div key={index} className='bg-linear-to-r from-indigo-500 to-teal-400 h-64 w-64 flex justify-center  items-center flex-col rounded-2xl shadow-xl transform duration-300 hover:-translate-y-3 p-4'>
+            <img src={clickImage} alt="click" className='box-border size-32 object-contain animate-bounce' />
             <a 
               href={project.link} 
               target="_blank" 
