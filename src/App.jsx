@@ -20,6 +20,7 @@ function App() {
           { title: "Project 3", link: "https://vd0511.github.io/SIGNUP-LOGIN-PAGE/" },
           { title: "Project 4", link: "https://vd0511.github.io/Netflix-clone/" },
           { title: "Project 5", link: "https://cerulean-gelato-7d734a.netlify.app/" },
+          { title: "project 6", link: "https://harmonious-zabaione-570ccd.netlify.app/"},
         ].map((project, index) => (
           <div key={index} className='bg-linear-to-r from-indigo-500 to-teal-400 h-64 w-64 flex justify-center  items-center flex-col rounded-2xl shadow-xl transform duration-300 hover:-translate-y-3 p-4'>
             <img src={clickImage} alt="click" className='box-border size-32 object-contain animate-bounce' />
